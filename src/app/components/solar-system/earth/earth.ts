@@ -19,7 +19,7 @@ export default class Earth {
   }
 
   public generate(): void {
-    this.mesh.position = new Vector3(0, 0, 14959787.7 / config.scale.distance);
+    this.mesh.position = new Vector3(0, 0, config.oneAu / config.scale.distance);
     this.mesh.receiveShadows = true;
 
     const material: any = new StandardMaterial('material', this.scene.instance);

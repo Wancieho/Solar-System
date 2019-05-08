@@ -1,10 +1,11 @@
 export const config = {
+  oneAu: 149598870.7,
   proportion: {
     distance: 1,
     size: 1,
   },
   scale: {
-    distance: 200000,
-    size: 5000,
+    distance: 1000000,
+    size: 3000,
   },
 };
